@@ -1,0 +1,15 @@
+from random import *
+
+print(int(random()*10+1))
+print(int(random()*10+1))
+print(int(random()*10+1))
+print(int(random()*10+1))
+
+
+print(randrange(1,46))
+print(randint(1,45))
+
+day = randint(1,28)
+print("오프라인 스터디 모임 날짜는 매월",day,"일로 선정되었습니다")
+print("오프라인 스터디 모임 날짜는 매월"+str(day)+"일로 선정되었습니다")
+print("오프라인 스터디 모임 날짜는 매월",randint(1,28),"일로 선정되었습니다")
